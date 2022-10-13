@@ -43,6 +43,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF40667D28F82C4400513512 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF5623BE28EC600400518B73 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF40667E28F82C5000513512 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF5623BC28EC5DB400518B73 /* ImageCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF40667F28F82C5900513512 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF5623AC28EC5C9400518B73 /* ViewController.swift */,
+				FF5623C028EC6C0A00518B73 /* ShowPictureViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		FF56239C28EC5C9400518B73 = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +87,15 @@
 		FF5623A728EC5C9400518B73 /* collectionViewHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				FF40667D28F82C4400513512 /* Models */,
+				FF40667E28F82C5000513512 /* Views */,
+				FF40667F28F82C5900513512 /* Controllers */,
 				FF5623A828EC5C9400518B73 /* AppDelegate.swift */,
 				FF5623AA28EC5C9400518B73 /* SceneDelegate.swift */,
-				FF5623AC28EC5C9400518B73 /* ViewController.swift */,
 				FF5623AE28EC5C9400518B73 /* Main.storyboard */,
 				FF5623B128EC5C9500518B73 /* Assets.xcassets */,
 				FF5623B328EC5C9500518B73 /* LaunchScreen.storyboard */,
 				FF5623B628EC5C9500518B73 /* Info.plist */,
-				FF5623BC28EC5DB400518B73 /* ImageCollectionViewCell.swift */,
-				FF5623BE28EC600400518B73 /* Model.swift */,
-				FF5623C028EC6C0A00518B73 /* ShowPictureViewController.swift */,
 			);
 			path = collectionViewHomeWork;
 			sourceTree = "<group>";
