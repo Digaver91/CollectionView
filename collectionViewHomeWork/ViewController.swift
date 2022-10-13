@@ -49,7 +49,8 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let images = imageArray[indexPath.row]
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "ShowPictureViewController") as? ShowPictureViewController else {return}
-        vc.imageView.image = images.picture?.toImage()
+        vc.view.layoutIfNeeded()
+        vc.imageView.image = UIImage(named: imageArray[indexPath.row].picture ?? "")
         
         show(vc, sender: images)
     
